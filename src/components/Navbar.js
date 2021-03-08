@@ -19,6 +19,7 @@ import {
 import { ArrowBack, Home, Apps, ContactMail } from "@material-ui/icons";
 import { makeStyles } from "@material-ui/core/styles";
 import MobileRightMenuSlider from "@material-ui/core/Drawer";
+import Footer from "./Footer";
 import avatar from "../Caleb.Headshot.Zoom-2.jpg";
 
 // CSS Styles
@@ -107,6 +108,7 @@ const Navbar = () => {
               onClose={toggleSlider("right", false)}
             >
               {sideList("right")}
+              <Footer />
             </MobileRightMenuSlider>
           </Toolbar>
         </AppBar>

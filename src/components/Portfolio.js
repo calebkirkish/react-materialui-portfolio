@@ -23,7 +23,6 @@ const useStyles = makeStyles({
   },
   cardContainer: {
     maxWidth: 370,
-    margin: "3rem",
     margin: "5rem auto",
   },
 });
@@ -47,8 +46,7 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h6" align="center">
-                  JQUERY, SEMANTIC UI, COVID-19 API, REI HIKING PROJECT API,
-                  GOOGLE MAPS API
+                  JQUERY, SEMANTIC UI, COVID-19 API, HIKING API, GOOGLE MAPS API
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   DISCOVER Serenity is a web application that provides its users
@@ -61,10 +59,22 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/calebkirkish/discover-serenity"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://calebkirkish.github.io/discover-serenity/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -82,7 +92,7 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h6" align="center">
-                  Express, Handlebars, MySQL, Multer, Cloudinary, Nodemailer
+                  EXPRESS, HANDLEBARS, MySQL, MULTER, CLOUDINARY, NODEMAILER
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Breakaway is an app that increases productivity by helping
@@ -93,10 +103,22 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/MVC-5/breakaway"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://breakaway-vacay.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -114,7 +136,8 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h6" align="center">
-                  MERN, Semantic UI, D3, PassportJS, pre-commit hooks{" "}
+                  MERN, SEMANTIC UI REACT COMPONENTS, D3, PASSPORTJS, MONGODB
+                  ATLAS
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   The 5 Sherpas app generate great suggestions on constructive
@@ -126,10 +149,22 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/MVC-5/5sherpas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://www.5sherpas.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live Demo
               </Button>
             </CardActions>
