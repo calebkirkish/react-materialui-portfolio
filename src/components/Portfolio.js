@@ -18,7 +18,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: "#233",
     height: "100%",
   },
   cardContainer: {
@@ -34,7 +33,7 @@ const Portfolio = () => {
       <Navbar />
       <Grid container justify="center">
         {/* Project1 */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={8} md={6} lg={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
@@ -80,14 +79,57 @@ const Portfolio = () => {
             </CardActions>
           </Card>
         </Grid>
+        {/* Project3 */}
+        <Grid item xs={12} sm={8} md={6} lg={4}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project 3"
+                height="200"
+                image={project3}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h6" align="center">
+                  MERN, SEMANTIC UI REACT COMPONENTS, D3, PASSPORTJS, MONGODB
+                  ATLAS
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  The 5 Sherpas app generate great suggestions on constructive
+                  activities based on your goals for personal improvement.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/MVC-5/5sherpas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repo
+              </Button>
+              <Button
+                size="small"
+                color="primary"
+                href="https://www.5sherpas.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
         {/* Project2 */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={8} md={6} lg={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
                 component="img"
                 alt="Project 2"
-                height="140"
+                height="150"
                 image={project2}
               />
               <CardContent>
@@ -116,52 +158,6 @@ const Portfolio = () => {
                 size="small"
                 color="primary"
                 href="https://breakaway-vacay.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Demo
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
-        {/* Project3 */}
-        <Grid item xs={12} sm={8} md={6}>
-          <Card className={classes.cardContainer}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="Project 3"
-                height="200"
-                image={project3}
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h6" align="center">
-                  MERN, SEMANTIC UI REACT COMPONENTS, D3, PASSPORTJS, MONGODB
-                  ATLAS
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  The 5 Sherpas app generate great suggestions on constructive
-                  activities based on your goals for personal improvement. At
-                  the end of the each week you will be able to see your level of
-                  contentment in different aspects of life, such as wellness,
-                  career, and relationships among others.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button
-                size="small"
-                color="primary"
-                href="https://github.com/MVC-5/5sherpas"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repo
-              </Button>
-              <Button
-                size="small"
-                color="primary"
-                href="https://www.5sherpas.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

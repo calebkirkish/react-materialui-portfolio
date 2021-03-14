@@ -16,7 +16,8 @@ import {
   ListItemText,
   ListItem,
 } from "@material-ui/core";
-import { ArrowBack, Home, Apps, ContactMail } from "@material-ui/icons";
+import { ArrowBack, Home, Apps } from "@material-ui/icons";
+import DescriptionIcon from "@material-ui/icons/Description";
 import { makeStyles } from "@material-ui/core/styles";
 import MobileRightMenuSlider from "@material-ui/core/Drawer";
 import Footer from "./Footer";
@@ -51,11 +52,6 @@ const menuItems = [
     listText: "Portfolio",
     listPath: "/portfolio",
   },
-  {
-    listIcon: <ContactMail />,
-    listText: "Contact",
-    listPath: "/contacts",
-  },
 ];
 
 const Navbar = () => {
@@ -88,6 +84,18 @@ const Navbar = () => {
             />
           </ListItem>
         ))}
+        <ListItem
+          button
+          component="a"
+          href="https://drive.google.com/file/d/1bVufGUsci2UHn3yAzfvVvLRYaRui75Mu/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListItemIcon className={classes.listItem}>
+            <DescriptionIcon />
+          </ListItemIcon>
+          <ListItemText className={classes.listItem} primary="Resume" />
+        </ListItem>
       </List>
     </Box>
   );
@@ -97,13 +105,13 @@ const Navbar = () => {
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "#9932CC" }} />
+              <ArrowBack style={{ color: "#DCDCDC" }} />
             </IconButton>
             <Typography variant="h5" style={{ color: "tan" }}>
               Portfolio
             </Typography>
             <MobileRightMenuSlider
-              anchor="right"
+              anchor="left"
               open={state.right}
               onClose={toggleSlider("right", false)}
             >

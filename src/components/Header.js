@@ -3,21 +3,22 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Avatar, Grid, Box } from "@material-ui/core";
 import Typed from "react-typed";
 import avatar from "../Caleb.Headshot.Zoom-2.jpg";
-import {} from "@material-ui/core/colors";
 
 // CSS STYLES
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
+    width: theme.spacing(35),
+    height: theme.spacing(35),
     margin: theme.spacing(1),
   },
   title: {
-    color: "#f6685e",
+    color: "tan",
+    marginBottom: "3rem",
   },
   subtitle: {
-    color: "lime",
-    marginBottom: "3rem",
+    color: "#DCDCDC",
+    marginTop: "1rem",
+    marginBottom: "2.5rem",
   },
   typedContainer: {
     position: "absolute",
@@ -37,11 +38,11 @@ const Header = () => {
       <Grid container justify="center">
         <Avatar className={classes.avatar} src={avatar} alt="Caleb Kirkish" />
       </Grid>
-      <Typography className={classes.title} variant="h4">
+      <Typography className={classes.title} variant="h3">
         <Typed strings={["Caleb Kirkish"]} typeSpeed={40} />
       </Typography>
       <br />
-      <Typography className={classes.subtitle} variant="h5">
+      <Typography className={classes.subtitle} variant="h4">
         <Typed
           strings={["Web Design", "Web Development", "MERN Stack"]}
           typeSpeed={40}
