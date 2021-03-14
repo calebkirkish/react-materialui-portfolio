@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29ff1c21.chunk.css",
+    "main.js": "/static/js/main.1e33e985.chunk.js",
+    "main.js.map": "/static/js/main.1e33e985.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0aa0c838.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0aa0c838.js.map",
+    "static/js/2.ca229d81.chunk.js": "/static/js/2.ca229d81.chunk.js",
+    "static/js/2.ca229d81.chunk.js.map": "/static/js/2.ca229d81.chunk.js.map",
+    "static/js/3.ae8c1c5f.chunk.js": "/static/js/3.ae8c1c5f.chunk.js",
+    "static/js/3.ae8c1c5f.chunk.js.map": "/static/js/3.ae8c1c5f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.29ff1c21.chunk.css.map": "/static/css/main.29ff1c21.chunk.css.map",
+    "static/js/2.ca229d81.chunk.js.LICENSE.txt": "/static/js/2.ca229d81.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/160758710_1568557473336340_2331667879386950148_n.d50a0a90.png",
+    "static/media/5-sherpas-banner.164b32ce.png": "/static/media/5-sherpas-banner.164b32ce.png",
+    "static/media/Caleb.Headshot.Zoom-2.93647956.jpg": "/static/media/Caleb.Headshot.Zoom-2.93647956.jpg",
+    "static/media/discover-serenity-header.12752f50.png": "/static/media/discover-serenity-header.12752f50.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0aa0c838.js",
+    "static/js/2.ca229d81.chunk.js",
+    "static/css/main.29ff1c21.chunk.css",
+    "static/js/main.1e33e985.chunk.js"
+  ]
+}
