@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 import {
   AppBar,
   Toolbar,
-  listItem,
-  listItemIcon,
   IconButton,
-  listItemText,
   Avatar,
   Divider,
   List,
@@ -27,7 +24,7 @@ import avatar from "../Caleb.Headshot.Zoom-2.jpg";
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "#F39F49",
     height: "100%",
   },
   avatar: {
@@ -37,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "tan",
+    color: "#0D2F4B",
   },
 }));
 
@@ -105,10 +102,13 @@ const Navbar = () => {
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "#DCDCDC" }} />
+              <ArrowBack style={{ color: "#9ABFC7" }} />
             </IconButton>
-            <Typography variant="h5" style={{ color: "tan" }}>
-              Portfolio
+            <Typography
+              variant="h5"
+              style={{ color: "#E55741", fontWeight: "bold" }}
+            >
+              MENU
             </Typography>
             <MobileRightMenuSlider
               anchor="left"
